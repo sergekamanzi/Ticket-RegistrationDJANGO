@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+db.sqlite3
+
+
+
+
+
+
+To bring the server up anytime:
+
+1.   cd C:\Users\serge\OneDrive\Desktop\Ticket registration\Backend
+2.   .\.venv\Scripts\Activate.ps1
+3.   python manage.py runserver
+
+
+
+
+The API will be live at 
+http://127.0.0.1:8000/api/tickets/ 
+for your React UI.
+
+
+
+for the django dashboard= http://127.0.0.1:8000/admin/
+
+
