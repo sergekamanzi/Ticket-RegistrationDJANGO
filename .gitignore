@@ -7,7 +7,7 @@ db.sqlite3
 
 
 
-To bring the server up anytime:
+#To bring the server up anytime:
 
 1.   cd C:\Users\serge\OneDrive\Desktop\Ticket registration\Backend
 2.   .\.venv\Scripts\Activate.ps1
@@ -16,7 +16,7 @@ To bring the server up anytime:
 
 
 
-The API will be live at 
+#The API will be live at 
 http://127.0.0.1:8000/api/tickets/ 
 for your React UI.
 
@@ -25,3 +25,11 @@ for your React UI.
 for the django dashboard= http://127.0.0.1:8000/admin/
 
 
+#to install on your local host
+
+1.Install Python 3.11+.
+2.From Backend, create/activate a virtualenv (python -m venv .venv, then .\.venv\Scripts\Activate.ps1 on Windows or source .venv/bin/activate elsewhere).
+3.pip install -r requirements.txt.
+4.python manage.py migrate.
+5.(Optional) python manage.py createsuperuser if they want admin access; they’ll set their own username/password.
+6.python manage.py runserver.
